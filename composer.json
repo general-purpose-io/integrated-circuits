@@ -1,0 +1,34 @@
+{
+    "name": "gpio/circuits",
+    "description": "The GeneralPurposeIO Integrated Circuits package.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Angel Gonzalez",
+            "email": "angel@projectsaturnstudios.com"
+        }
+    ],
+    "homepage": "https://scrapyard-io.projectsaturnstudios.com/ecosystem/scrapyard-io/gpio-framework/0.7.x/overview",
+    "support": {
+        "issues": "https://github.com/ScrapyardIO/gpio-framework/issues",
+        "source": "https://github.com/ScrapyardIO/gpio-framework"
+    },
+    "require": {
+        "php": "^8.4|^8.5|^8.6",
+        "gpio/contracts": "0.7.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "GeneralPurposeIO\\Circuits\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.7.x-dev"
+        }
+    }
+}
