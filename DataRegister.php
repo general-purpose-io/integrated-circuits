@@ -1,6 +1,6 @@
 <?php
 
-namespace GeneralPurposeIO\Circuits;
+namespace GeneralPurposeIO\IntegratedCircuits;
 
 abstract readonly class DataRegister
 {

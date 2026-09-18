@@ -1,10 +1,10 @@
 <?php
 
-namespace GeneralPurposeIO\Circuits;
+namespace GeneralPurposeIO\IntegratedCircuits;
 
-use GeneralPurposeIO\Contracts\Circuits\IntegratedCircuit as CircuitContract;
+use GeneralPurposeIO\Contracts\IntegratedCircuits\IntegratedCircuit as CircuitContract;
 
 abstract class IntegratedCircuit implements CircuitContract
 {
-    abstract public function close(): void;
+
 }
